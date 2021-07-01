@@ -1,0 +1,22 @@
+Table = used_cars
+
+id                  =   INT         -   PRIMARY_KEY - AUTO_INCREMENT
+price               =   FLOAT(6, 2) -   NOTNULL
+km                  =   MEDIUMINT   -   NOTNULL
+kW                  =   SMALLINT    -   
+hp                  =   SMALLINT    -   
+displacement        =   SMALLINT    -   NOTNULL
+gearing             =   VARCHAR(20) -   NOTNULL
+fuel                =   VARCHAR(20) -
+emission_class      =   VARCHAR(10) -
+make                =   VARCHAR(50) -   NOTNULL
+model               =   VARCHAR(50) -   NOTNULL
+model_code          =   VARCHAR(20) -   
+first_registration  =   DATE        -   NOTNULL
+color               =   VARCHAR(20) -   NOTNULL
+metallic            =   TINYINT(1)  -
+body                =   VARCHAR(20) -
+doors               =   TINYINT(1)  -
+seats               =   TINYINT     -
+prev_owners         =   TINYINT     -   NOTNULL
+description         =   TEXT        -   
